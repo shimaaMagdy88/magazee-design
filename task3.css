@@ -1,0 +1,461 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+.container-fluid{
+    width:79%;
+    margin:auto;
+}
+.container{
+    width:60%;
+    margin:auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+}
+.col-12{
+    width:100%;
+}
+.col-8{
+    width:calc(100% * 8/12);
+}
+.col-6{
+    width:calc(100% * 6/12);
+}
+.col-4{
+    width:calc(100% * 4/12);
+}
+body{
+    background-color: rgba(211, 211, 211, 0.725);
+}
+
+/* START HEADER */
+#header{
+    margin:30px 0px;
+}
+#header .box{
+    padding:60px;
+    height: 100%;
+    width:100%;
+}
+#header .red-box{
+    background-color: #9B3434;
+}
+#header .white-box{
+    background-color: white;
+}
+
+#header .first-row .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+#header .first-row .red-box{
+    font-size: 60px;
+    color:white;
+}
+#header .first-row .red-box h3{
+    font-weight: 100;
+}
+#header .first-row .white-box{
+    font-size: 20px;
+    font-weight: 100;
+    font-style: italic;
+    color:rgba(100, 99, 99, 0.867);
+    line-height: 2;
+}
+
+#header .second-row .white-box h3{
+    color:#9B3434;
+    font-size: 30px;
+    padding: 30px 0px;
+    font-weight:lighter;
+}
+#header .second-row .white-box p{
+    font-size: 20px;
+    color:rgba(100, 99, 99, 0.867);
+    line-height: 1.5;
+    font-weight: 100;
+}
+.red-btn{
+    font-size: 18px;
+    color: white;
+    background-color: #9B3434;
+    padding: 16px 48px;
+    margin:25px 0px;
+    border: hidden;
+}
+#header .second-row .white-box button{
+    float: right;
+}
+.red-btn a{
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+}
+.red-btn:hover{
+    background-color: #dd3535d9;
+    transition: background 0.5s;
+}
+#header .second-row .red-box{
+    text-align: center;
+}
+#header .second-row .red-box img{
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+#header .second-row .red-box p{
+    color:white;
+    font-size: 14px;
+    width:90%;
+    margin: auto;
+    line-height: 1.5;
+    font-weight: 100;
+}
+#header .third-row .left-img{
+    height:100%;
+}
+#header .third-row .left-img img{
+    width:100%;
+    height: 100%;
+}
+#header .third-row .white-box{
+    text-align: center;
+}
+#header .third-row .white-box h3{
+    color:rgb(128, 128, 128);
+    font-size: 30px;
+    padding: 30px 0px;
+    font-weight:lighter;
+    text-align: center;
+}
+#header .third-row .white-box p{
+    font-size: 18px;
+    color:rgb(128, 128, 128);
+    line-height: 1.5;
+    font-weight: 100;
+}
+.special-span a{
+    text-decoration: none;
+    color:rgb(128, 128, 128);
+}
+.special-span a:hover{
+    text-decoration: underline;
+    color:rgba(0, 0, 255, 0.641);
+}
+#header .third-row .white-box span a{
+    color:rgba(0, 0, 255, 0.641);
+}
+/* END HEADER */
+
+
+/* START TEXT section */
+#textSection .left-text{
+    background-color: white;
+    padding: 60px 60px 30px;
+}
+#textSection .left-text h3{
+    color:#9B3434;
+    font-size: 25px;
+    font-weight: 100;
+}
+#textSection .left-text p{
+    color:gray;
+    margin:30px 0px;
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 100;
+}
+#textSection .left-text button{
+    float: right;
+}
+#textSection .right-img{
+    background-color: white;
+}
+#textSection .right-img img{
+    width: 100%;
+    height: 100%;
+}
+/* END textSection */
+
+/* START SALARY section */
+#salarySection{
+    margin:30px 0px;
+}
+#salarySection .left-img{
+    background-color: white;
+    height: 100%;
+}
+#salarySection .left-img img{
+    width:100%;
+    height: 100%;
+}
+#salarySection .salary{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+}
+#salarySection .salary .salary-text{
+    border: 1px solid #009999;
+    margin:20px;
+}
+#salarySection .salary .salary-text .top{
+    padding:25px;
+    text-align: center;
+    color:white;
+    background-color: #009999;
+}
+#salarySection .salary .salary-text .top span:first-of-type{
+    display: block;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+#salarySection .salary .salary-text .top span:last-of-type{
+    font-size: 18px;
+}
+#salarySection .salary .salary-text .bottom{
+    padding:40px 40px 40px 50px;
+}
+#salarySection .salary .salary-text .bottom ul li{
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color:gray;
+    display: list-item;
+}
+#salarySection .salary .salary-text .bottom button{
+    background-color: #009999;
+    padding: 16px 50px;
+    margin:25px 0px;
+    border: hidden;
+    color:white;
+}
+#salarySection .salary .salary-text .bottom button:hover{
+    background-color: #3ee1e1;
+    transition: background 0.5s;
+}
+/* END salary Section */
+
+/* START contact section */
+#contactSection{
+    margin:30px 0px;
+    position: relative;
+}
+#contactSection .contact-top{
+    background-color: #9B3434;
+    padding: 50px 150px 100px;
+    margin-bottom: 50vh;
+}
+#contactSection .contact-top h3{
+    color:white;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+#contactSection .contact-center form{
+    background-color: white;
+    padding: 70px 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:60%;
+    margin:auto;
+    position: absolute;
+    top:45%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+#contactSection .contact-center form .form-left input{
+    padding:15px;
+    width:100%;
+    display: block;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+#contactSection .contact-center form .form-right{
+    padding-left: 50px;
+}
+#contactSection .contact-center form .form-right .gender{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+#contactSection .contact-center form .form-right .gender label{
+    margin: 0px 10% 10px 0px;
+}
+#contactSection .contact-center form .form-right textarea{
+    width:100%;
+    height: 200px;
+    padding: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    display: block;
+}
+
+#contactSection .contact-bottom{
+    background-color: #666;
+    padding: 100px 0px 50px;
+}
+#contactSection .contact-bottom .footer{
+    display: flex;
+    justify-content: center;
+}
+#contactSection .contact-bottom ul{
+    color:white;
+    font-size: large;
+    letter-spacing: 0.5px;
+}
+#contactSection .contact-bottom ul li{
+    list-style: none;
+    font-weight: 500;
+    line-height: 1.5;
+}
+/* END CONTACT section */
+
+/* START FOOTER */
+footer{
+    display: flex;
+    justify-content: center;
+    margin:20px auto;
+    width:80%;
+    text-align: center;
+    color:rgb(128, 128, 128);
+}
+/* END FOOTER */
+
+/* @media query */
+@media (max-width:1500px){
+    .container-fluid{
+        width:85%;
+        margin:auto;
+    }
+}
+@media (max-width:1300px){
+    .container-fluid{
+        width:90%;
+        margin:auto;
+    }
+    #contactSection .contact-center form{
+        width:65%;
+    }
+}
+@media (max-width:1200px){
+    .container-fluid{
+        width:95%;
+        margin:auto;
+    }
+    #contactSection .contact-center form{
+        width:70%;
+    }
+}
+@media (max-width:1173.600px){
+    #textSection .right-img img, #salarySection .left-img img{
+        height: 70%;
+        width: 90%;
+    }
+    #salarySection .salary{
+        padding: 0px;
+    }
+    #contactSection .contact-top{
+        padding: 50px 100px 100px;
+    }
+    #contactSection .contact-center form{
+        width:80%;
+    }
+}
+@media (max-width:980px){    /* block boxes*/
+    .container-fluid{
+        width:79%;
+    }
+    .container{
+        width:80%;
+        margin:auto;
+    }
+    .col-md-12{
+        width:100%;
+    }
+    #header .first-row .white-box{
+        border-bottom: 1px solid #9B3434;
+    }
+    #textSection .right-img{
+        padding:60px 60px 0px;
+    }
+    #textSection .right-img img, #salarySection .left-img img{
+        height: 100%;
+        width: 100%;
+    }
+    #salarySection .left-img{
+        padding:0px 60px 60px;
+    }
+    #salarySection .salary .salary-text{
+        margin:10px;
+    }
+    #contactSection .contact-top{
+        padding: 50px 50px 100px;
+    }
+    #contactSection .contact-center form{
+        width: 70%;
+    }
+}
+@media (max-width:770px){
+    .col-sm-12{
+        width:100%;
+    }
+    #textSection .right-img{
+        padding:30px 30px 0px;
+    }
+    #salarySection .salary{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    #salarySection .salary .salary-text{
+        width:60%;
+        margin:10px auto;
+    }
+    #salarySection .left-img{
+        padding:0px 30px 30px;
+    }
+    #contactSection .contact-top{
+        margin-bottom: 80vh;
+    }
+    #contactSection .contact-center form{
+        padding: 50px 70px;
+        top:40%;
+    }
+    #contactSection .contact-center form .form-right{
+        padding:10px 0px;
+    }
+    #contactSection .contact-center form .form-right .gender{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #contactSection .contact-center form .form-right .gender label{
+        width:100%;
+        margin:5px 0px;
+        margin: 0px 10% 10px 0px;
+    }
+    #contactSection .contact-bottom .footer{
+        margin:10px 0px;
+    }
+}
+@media (max-width:558px){
+    .container-fluid{
+        width:95%;
+        margin:auto;
+    }
+    #contactSection .contact-center form{
+        width:90%;
+    }
+    #salarySection .salary .salary-text{
+        width:80%;
+        margin:10px auto;
+    }
+}
